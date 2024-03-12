@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --heading-color: hsl(14, 45%, 36%);
+}
+
+html {
+  /* font-size: 16px; */
+}
+p {
+    font-family: "Outfit", sans-serif;
+}
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.h1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 41px;
+    text-align: left;
+}
+
+.h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+}
+
+.preparation-time {
+
+}
+
+.preparation-time__heading {
+    color: hsl(332, 51%, 32%);
+}
